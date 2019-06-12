@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xs</title>
+</head>
+<body>
+<div style="display:inline-block; vertical-align: top ">
+    <img onclick="changeimage('1')" id="1" src="квадратик.png" width="150">
+    <img onclick="changeimage('2')" id="2" src="квадратик.png" width="150">
+    <img id="3" src="квадратик.png" width="150"><br/>
+    <img id="4" src="квадратик.png" width="150">
+    <img id="5" src="квадратик.png" width="150">
+    <img id="6" src="квадратик.png" width="150"><br/>
+    <img id="7" src="квадратик.png" width="150">
+    <img id="8" src="квадратик.png" width="150">
+    <img id="9" src="квадратик.png" width="150">
+</div>
+<div style="display: inline-block; text-align: center">
+    <pre>X:0   Y:0</pre><br/>
+    <img src="refresh.png" onclick="refresh()" width="75">
+</div>
+<script>
+    function changeimage(id) {
+        document.getElementById(id).src="крестик.png"
+    }
+
+</script>
+
+</body>
+</html>

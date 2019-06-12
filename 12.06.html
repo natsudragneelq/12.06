@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Like</title>
+</head>
+<body>
+<center>
+    <img id="qwe" src="лайк.png" onclick="like()">
+    <div id="ert">99</div>
+</center>
+<script>
+    q = false
+    function like() {
+        q = !q
+        w=100
+        if (q==true) {
+            document.getElementById("qwe").src = "лайк2.jpg"
+            document.getElementById("ert").innerHTML=100
+        }
+        if (q==false){
+            document.getElementById("qwe").src = "лайк.png"
+            document.getElementById("ert").innerHTML=99
+        }
+
+
+
+    }
+</script>
+
+
+</body>
+</html>
